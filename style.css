@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    /* max-width: 1200px; */
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#pomodoroTimer{
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 600;
+   margin-bottom: 2.5rem;
+}
+#timer{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+button{
+    width: 4rem;
+    height: 2rem;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+#startButton{
+    color: white;
+    background-color: green;
+    box-shadow: none;
+    
+}
+#stopButton{
+    color: white;
+    background-color: red;
+    box-shadow: none;
+}
+#resetButton{
+    color: white;
+    background-color: grey;
+    box-shadow: none;
+}
+button:hover{
+    background-color: grey;
+}
